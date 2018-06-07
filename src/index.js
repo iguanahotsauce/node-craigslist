@@ -403,6 +403,7 @@ export class Client {
 
 		// retrieves the posting details directly
 		getDetails = new Promise((resolve, reject) => {
+			console.log(requestOptions);
 			if (core.Validation.isEmpty(posting)) {
 				return reject(new Error('posting URL is required'));
 			}
