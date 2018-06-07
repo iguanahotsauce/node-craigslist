@@ -484,7 +484,7 @@ export class Client {
 
 		// ensure options is at least a blank object before continuing
 		options = options || {};
-
+		return resolve(options);
 		let
 			exec,
 			self = this;

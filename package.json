@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.org:iguanahotsauce/node-craigslist.git"
+    "url": "git+https://github.com/iguanahotsauce/node-craigslist.git"
   },
   "main": "./dist",
   "scripts": {
